@@ -7,6 +7,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "engines": {
+    "yarn": "1.x"
+  },
   "devDependencies": {
     "esbuild": "^0.11.20",
     "ts-node": "^9.1.1",

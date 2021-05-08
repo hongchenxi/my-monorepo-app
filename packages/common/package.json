@@ -1,0 +1,8 @@
+{
+  "name": "@my-monorepo-app/common",
+  "version": "0.1.0",
+  "author": "ifxi",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "./src/index.ts"
+}

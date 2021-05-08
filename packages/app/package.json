@@ -1,0 +1,16 @@
+{
+  "name": "@my-monorepo-app/app",
+  "version": "0.1.0",
+  "author": "ifxi",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@my-monorepo-app/common": "^0.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.3"
+  }
+}

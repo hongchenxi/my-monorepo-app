@@ -1,0 +1,23 @@
+{
+  "name": "my-monorepo-app",
+  "version": "1.0",
+  "author": "ifxi",
+  "license": "UNLICENSED",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.11.20",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "app": "yarn workspace @my-monorepo-app/app",
+    "common": "yarn workspace @my-monorepo-app/common",
+    "server": "yarn workspace @my-monorepo-app/server",
+    "build": "ts-node ./scripts/build.ts",
+    "serve": "node ./packages/server/dist/index.js",
+    "docker": "docker build . -t my-monorepo-app"
+  }
+}
